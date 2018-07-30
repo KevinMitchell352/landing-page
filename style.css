@@ -1,0 +1,59 @@
+.header {
+    height: 600px;
+    background: url("images/lushna-bg-image.jpg") no-repeat center top;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    align-self: center;
+    color: white;
+}
+
+nav {
+    list-style-type: none;
+    position: absolute;
+    top: 0; bottom: 0; left: 1; right: 0;
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.corps {
+    width: 50%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.twoboxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 0.5em;
+}
+
+li {
+    padding: 0;
+}
+
+.form {
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+}
+
